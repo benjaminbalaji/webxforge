@@ -1,0 +1,111 @@
+ 
+.container{
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+.one{
+    color: rgb(175, 55, 55);
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* span,a{
+    font-size: clamp(2rem, 2.5vw, 3.5rem);
+} */
+
+.button {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgb(58, 236, 150) 10.8%,
+      rgb(7, 241, 62) 94.3%
+    );
+    transition: all 0.475s;
+  }
+
+  .text{
+    display: block;
+    font-size: 900px;
+    margin-bottom: 12px;
+    color: rgb(227, 227, 227)
+  }
+  
+
+  /* From Uiverse.io by Madflows */ 
+.btn {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .btn-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgba(150, 93, 233, 1) 10.8%,
+      rgba(99, 88, 238, 1) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
